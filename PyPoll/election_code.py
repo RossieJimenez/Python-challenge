@@ -49,7 +49,8 @@ with open("Election Results.txt", "w") as output_file:
     output_file.write("-----------------\n")
     output_file.write(f"Total Votes: {total_voters}\n")
     output_file.write("-----------------\n")
-
+    
+#Export percentage as loop
     for candidate, votes in candidates.items():
         percentage = (votes / total_voters) *100
         output_file.write(f'{candidate}: {percentage:.2f}% ({votes})\n')
