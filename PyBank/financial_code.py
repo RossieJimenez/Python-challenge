@@ -51,7 +51,7 @@ print(f"Total: ${profit_losses}")
 print(f"Average Change: ${average_change:.2f}")
 print(f"Greatest Increase in Profits: {max_date} (${max_profit})")
 print(f"Greatest Decrease in Profits: {min_date} (${min_profit})")
-
+ 
 #Export Financial Analysis as a txt file
 with open("Financial Analysis.txt", "w") as output_file:
     output_file.write("Financial Analysis\n")
